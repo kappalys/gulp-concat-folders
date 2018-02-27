@@ -92,8 +92,7 @@ module.exports = function(base, opts) {
         file.sourceMap = JSON.parse(concat.sourceMap);
       }
 
-      log(file);
-      // this.push(file);
+      this.push(file);
     }
 
     cb();
